@@ -219,6 +219,9 @@
       margin-top: 153px;
       white-space: nowrap;
       font: 500 18px/121.5% Inter, sans-serif;
+      a {
+        color: rgb(0, 0, 0);
+      }
     }
     @media (max-width: 991px) {
       .div-15 {
@@ -343,6 +346,9 @@
       margin-top: 153px;
       white-space: nowrap;
       font: 500 18px/121.5% Inter, sans-serif;
+      a {
+        color: rgb(0, 0, 0);
+      }
     }
     @media (max-width: 991px) {
       .div-24 {
@@ -468,6 +474,9 @@
       margin-top: 153px;
       white-space: nowrap;
       font: 500 18px/121.5% Inter, sans-serif;
+      a {
+        color: rgb(0, 0, 0);
+      }
     }
     @media (max-width: 991px) {
       .div-33 {
