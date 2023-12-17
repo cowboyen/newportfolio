@@ -533,6 +533,10 @@
       display: flex;
       justify-content: space-between;
       gap: 20px;
+      a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+      }
     }
     .div-37 {
       color: var(--Main-Black, #181717);
