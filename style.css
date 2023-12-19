@@ -542,6 +542,7 @@
       color: var(--Main-Black, #181717);
       letter-spacing: -0.63px;
       font: 500 21px/120% DM Sans, sans-serif;
+      text-decoration: none;
     }
     .div-38 {
       color: var(--Main-Black, #181717);
