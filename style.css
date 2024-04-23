@@ -189,6 +189,7 @@
       letter-spacing: -0.54px;
       white-space: nowrap;
       font: 500 18px/121.5% Inter, sans-serif;
+      font-weight: bold;
     }
     @media (max-width: 991px) {
       .div-11 {
