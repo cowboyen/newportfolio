@@ -193,7 +193,7 @@ header {
   display: flex;
   justify-content: center;
 }
-}
+
 .responsive-image {
   aspect-ratio: 1;
   object-fit: contain;
