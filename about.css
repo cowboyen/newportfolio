@@ -188,7 +188,11 @@ header {
 }
 
 .image-container {
-  width: 500px;
+  width: 100%;
+  max-width: 500px; /* Hvis ønskelig */
+  display: flex;
+  justify-content: center;
+}
 }
 .responsive-image {
   aspect-ratio: 1;
@@ -392,7 +396,8 @@ header {
 
   .profile-image {
     max-width: 100%;
-  }
+    height: auto; /* Opprettholder høyde-bredde-forholdet */
+}
 
   .social-links {
     white-space: normal;
