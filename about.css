@@ -180,11 +180,11 @@ header {
 
 .intro-description {
   color: #606060;
-  font-size: 32px;
+  font-size: 23px;
   font-weight: 400;
   line-height: 37px;
   letter-spacing: -0.96px;
-  margin-top: 59px;
+  margin-top: 25px;
 }
 
 .image-container {
@@ -426,3 +426,30 @@ header {
       margin-top: 40px;
   }
 }
+.gif-container {
+  display: flex;              /* Bruker fleksibel layout */
+  justify-content: center;    /* Midtstiller innhold horisontalt */
+  align-items: center;        /* Midtstiller innhold vertikalt */
+  margin-top: 20px;          /* Legger til litt avstand over GIF-en */
+  width: 100%;                /* Sørger for at containeren tar opp hele bredden */
+  padding-top: 69px;
+}
+
+.gif-container img {
+  max-width: 100%;           /* Forhindrer at bildet blir større enn containeren */
+  height: auto;              /* Opprettholder høyde-bredde-forholdet */
+  width: 200px;              /* Størrelse på større skjermer */
+}
+
+@media (max-width: 768px) {
+  .gif-container img {
+    width: 150px;            /* Justerer størrelse for nettbrett */
+  }
+}
+
+@media (max-width: 480px) {
+  .gif-container img {
+    width: 100px;            /* Justerer størrelse for mobil */
+  }
+}
+
