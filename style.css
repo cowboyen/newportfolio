@@ -9,6 +9,7 @@
       justify-content: flex-end;
       align-items: center;
       padding: 20px;
+      padding-bottom: 5px;
       background-color:#f3f3f3; /* Transparent background */
       position: sticky;
       top: 0;
