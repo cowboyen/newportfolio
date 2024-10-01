@@ -238,11 +238,11 @@ header {
 
 .skills-title {
   width: 22%;
+  font-weight: normal;
   color: #181717;
   letter-spacing: -0.54px;
   text-decoration: underline;
   font-size: 18px;
-  font-weight: 500;
 }
 
 .skills-list {
@@ -414,12 +414,7 @@ header {
   font: 18px Inter, sans-serif;
   max-width: 1120px;
 }
-.skills-title {
-  font-weight: 500;
-  line-height: 1;
-  text-decoration-line: underline;
-  align-self: start;
-}
+
 .skills-list {
   font-weight: 400;
   line-height: 22px;
@@ -457,3 +452,4 @@ header {
     width: 100px;            /* Justerer størrelse for mobil */
   }
 }
+a:-webkit-any-link { text-decoration: none !important; }
