@@ -534,7 +534,7 @@
     }
     .div-26 {
       align-self: stretch;
-      padding-bottom: 50px;
+      padding-bottom: 0px;
       margin: 50px 0 96px;
     }
     @media (max-width: 991px) {
@@ -653,7 +653,7 @@
       width: 100%;
       justify-content: space-between;
       gap: 20px;
-      padding: 3px 7px 3px 0;
+      padding-bottom: 20px;
     }
     @media (max-width: 991px) {
       .div-34 {
@@ -686,4 +686,30 @@
       color: var(--Main-Black, #181717);
       letter-spacing: -0.63px;
       font: 500 21px/120% DM Sans, sans-serif;
+    }
+    .gif-container {
+      display: flex;              /* Bruker fleksibel layout */
+      justify-content: center;    /* Midtstiller innhold horisontalt */
+      align-items: center;        /* Midtstiller innhold vertikalt */
+      margin-top: 20px;          /* Legger til litt avstand over GIF-en */
+      width: 100%;                /* Sørger for at containeren tar opp hele bredden */
+      padding-bottom: 69px;
+    }
+    
+    .gif-container img {
+      max-width: 100%;           /* Forhindrer at bildet blir større enn containeren */
+      height: auto;              /* Opprettholder høyde-bredde-forholdet */
+      width: 200px;              /* Størrelse på større skjermer */
+    }
+    
+    @media (max-width: 768px) {
+      .gif-container img {
+        width: 150px;            /* Justerer størrelse for nettbrett */
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .gif-container img {
+        width: 100px;            /* Justerer størrelse for mobil */
+      }
     }
