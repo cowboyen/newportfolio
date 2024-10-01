@@ -1,12 +1,12 @@
 const doc = document;
-const menuOpen = doc.querySelector(".menu");
-const menuClose = doc.querySelector(".close");
+const menuToggle = doc.querySelector(".menu");
 const overlay = doc.querySelector(".overlay");
 
-menuOpen.addEventListener("click", () => {
-  overlay.classList.add("overlay--active");
-});
+// Initialize menu state
+let menuOpen = false;
 
-menuClose.addEventListener("click", () => {
-  overlay.classList.remove("overlay--active");
+menuToggle.addEventListener("click", () => {
+  menuOpen = !menuOpen; // Toggle the menu state
+  overlay.classList.toggle("overlay--active", menuOpen); // Open/close menu
+  menuToggle.textContent = menuOpen ? "Close" : "Menu"; // Update button text
 });
