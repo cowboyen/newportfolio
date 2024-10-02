@@ -698,10 +698,6 @@
       height: auto;              /* Opprettholder høyde-bredde-forholdet */
       width: 200px;              /* Størrelse på større skjermer */
     }
-    #draggable-gif {
-      position: absolute; /* Viktig for å kunne flytte elementet */
-      cursor: grab; /* Viser brukeren at de kan dra GIF-en */
-    }
     
     @media (max-width: 768px) {
       .gif-container img {
@@ -729,3 +725,20 @@
         margin-top: 40px;
       }
     }
+    .draggable {
+      position: absolute;
+      cursor: grab;
+      width: 50px;
+      height: 50px;
+      color: #fff;
+      text-align: center;
+      line-height: 100px;
+      border-radius: 8px;
+      user-select: none;
+  }
+  
+  .draggable.dragging {
+      cursor: grabbing;
+  }
+
+  
