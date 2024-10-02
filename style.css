@@ -710,4 +710,18 @@
         width: 100px;            /* Justerer størrelse for mobil */
       }
     }
-    
+    .decorative-image {
+      aspect-ratio: 1.47;
+      object-fit: contain;
+      object-position: center;
+      width: 100%;
+      overflow: hidden;
+      flex-grow: 1;
+    }
+  
+    @media (max-width: 991px) {
+      .decorative-image {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
