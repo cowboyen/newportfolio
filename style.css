@@ -698,6 +698,10 @@
       height: auto;              /* Opprettholder høyde-bredde-forholdet */
       width: 200px;              /* Størrelse på større skjermer */
     }
+    #draggable-gif {
+      position: absolute; /* Viktig for å kunne flytte elementet */
+      cursor: grab; /* Viser brukeren at de kan dra GIF-en */
+    }
     
     @media (max-width: 768px) {
       .gif-container img {
