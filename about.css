@@ -129,8 +129,6 @@ header {
   }
 }
 
-
-
 .portfolio-about {
   background-color: #f3f3f3;
   display: flex;
@@ -138,7 +136,7 @@ header {
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  padding: 49px 80px;
+  padding: 47px 80px;
   font-family: 'DM Sans', sans-serif;
 }
 

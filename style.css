@@ -669,8 +669,8 @@
       justify-content: space-between;
       gap: 20px;
       a {
-        color: rgb(0, 0, 0);
-        text-decoration: none;
+        color: rgb(64, 0, 255);
+        text-decoration: underline;
       }
     }
     .div-37 {
@@ -739,6 +739,20 @@
   
   .draggable.dragging {
       cursor: grabbing;
+  }
+  .footer {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 1113px;
+    gap: 20px;
+    letter-spacing: -0.63px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3px 0;
+    font-size: 21px;
+    font-weight: 500;
   }
 
   
