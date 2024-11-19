@@ -137,7 +137,7 @@
     
     .overlay a:hover,
     .overlay a:focus {
-      color: #0088a9;
+      color:hsl(202, 75%, 80%)
     }
 
     
@@ -717,7 +717,7 @@
       align-items: center;        /* Midtstiller innhold vertikalt */
       margin-top: 20px;          /* Legger til litt avstand over GIF-en */
       width: 100%;                /* Sørger for at containeren tar opp hele bredden */
-      padding-bottom: 69px;
+      padding-top: 69px;
     }
     
     .gif-container img {
@@ -767,4 +767,6 @@
   .draggable.dragging {
       cursor: grabbing;
   }
+
+  
   

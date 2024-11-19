@@ -104,7 +104,7 @@ header {
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #0088a9;
+  color:hsl(202, 75%, 80%)
 }
 
 
@@ -382,9 +382,6 @@ header {
   .main-skills,
   .separator,
   .contact-section,
-  .footer {
-    margin-top: 40px;
-  }
 
   .profile-image {
     max-width: 100%;
@@ -392,7 +389,7 @@ header {
 }
 
 .footer-link {
-  text-decoration: none;
+  text-decoration: un;
   color: rgb(64, 0, 255);
   margin-left: 5px; /* Sikrer et lite mellomrom før lenken */
   margin-right: 10px; /* Gir litt avstand mellom lenken og pilen */
