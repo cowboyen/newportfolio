@@ -244,8 +244,8 @@
       display: flex;
       flex-direction: column;
       line-height: normal;
-      width: 25%;
       margin-left: 0px;
+      justify-content: center;
     }
     @media (max-width: 991px) {
       .column {
