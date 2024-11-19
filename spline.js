@@ -1,4 +1,11 @@
 window.onload = function() {
-    var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
-    shadowRoot.querySelector('#logo').remove();
-}
+    const splineViewer = document.querySelector('spline-viewer');
+    if (splineViewer) {
+        const shadowRoot = splineViewer.shadowRoot;
+        const logo = shadowRoot.querySelector('#logo');
+        if (logo) {
+            logo.remove();
+            console.log('Spline watermark removed');
+        }
+    }
+};
